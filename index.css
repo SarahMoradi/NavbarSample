@@ -1,0 +1,86 @@
+* {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-color: black !important;
+  font-family: "Baloo Bhaijaan 2", cursive !important;
+}
+.mobile-humberger-menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111;
+}
+.logo-image {
+  display: flex;
+  padding: 10px;
+}
+.openbtn {
+  font-size: 30px;
+}
+.form-control {
+  border-radius: 30px !important;
+}
+.searchbox-position {
+  position: relative;
+}
+.navbar-searchbox-position{
+    position: relative;
+    margin-right: 30%;
+}
+.searchbox-icon-position {
+  position: absolute;
+  bottom: 59px;
+  right: 12px;
+}
+.searchbox-icon-navbar{
+  position: absolute;
+  top: 10px;
+  bottom: 59px;
+  right: 12px;
+}
+input::placeholder {
+  padding-right: 10px;
+  font-size: 15px !important;
+}
+.input-text-default {
+  padding-right: 40px !important;
+  font-size: 15px !important;
+  color: red !important;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.default-humberger-icons{
+    margin-top: 5px;
+    margin-right: 2rem;
+    margin-left: -10px;
+}
+@media (max-width: 767px) {
+  .custom-navbar {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .custom-navbar {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1700px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  .custom-navbar {
+    height: 60px;
+    margin-top: 20px;
+    width: 80% !important;
+    border-radius: 12px;
+  }
+  .mobile-humberger-menu {
+    display: none !important;
+  }
+}
