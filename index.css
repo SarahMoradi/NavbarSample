@@ -138,3 +138,6 @@ input:focus::placeholder {
     font-size: 15px !important;
   }
 }
+div .dropdown-btn:active i{
+  display: block !important;
+}
