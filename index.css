@@ -5,9 +5,9 @@
   box-sizing: 0;
 }
 body {
-  background-color: black !important;
+  background-color: rgb(240, 240, 240) !important;
   font-family: "Baloo Bhaijaan 2", cursive !important;
-}
+  }
 .mobile-humberger-menu {
   display: flex;
   justify-content: space-between;
@@ -37,9 +37,20 @@ body {
 }
 .searchbox-icon-navbar{
   position: absolute;
-  top: 10px;
+  top: 15px;
   bottom: 59px;
-  right: 12px;
+  right: 20px;
+}
+.navbar-input-text-default{
+  padding-right: 40px !important;
+  height: 50px;
+  font-size: 15px !important;
+  color: rgb(0, 0, 0) !important;
+  border-radius: 10px  !important;
+  border: none !important;
+  outline:  none !important;
+  background-color: rgb(241, 248, 252) !important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 input::placeholder {
   padding-right: 10px;
@@ -48,7 +59,7 @@ input::placeholder {
 .input-text-default {
   padding-right: 40px !important;
   font-size: 15px !important;
-  color: red !important;
+  color: rgb(0, 0, 0) !important;
 }
 input:focus::placeholder {
   color: transparent;
@@ -58,29 +69,72 @@ input:focus::placeholder {
     margin-right: 2rem;
     margin-left: -10px;
 }
+.navbar-icons-default{
+  background-color: rgb(200, 235, 252);
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  margin: 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.menulist-navbar-icon{
+  color: rgb(85, 85, 85);
+  font-size:  16px;
+  margin-top: -5px;
+  margin-left: -5px;
+}
 @media (max-width: 767px) {
   .custom-navbar {
     display: none !important;
   }
+  .custom-bottom-navbar{
+    display: none !important;
+  }
 }
-@media (min-width: 768px) and (max-width: 999px) {
+@media (min-width: 768px) and (max-width: 1114px) {
   .custom-navbar {
+    display: none !important;
+  }
+  .custom-bottom-navbar{
     display: none !important;
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1700px) {
+@media (min-width: 1115px) and (max-width: 2300px) {
   body {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
   .custom-navbar {
-    height: 60px;
+    background-color:  #fff;
+    height: 100px;
     margin-top: 20px;
     width: 80% !important;
     border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   }
   .mobile-humberger-menu {
     display: none !important;
+  }
+  .custom-bottom-navbar{
+    background-color: rgb(200, 235, 252) !important;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 60px;
+    width: 75% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  }
+  ul li {
+    margin: 0 10px;
+    text-align: right;
+    font-size: 15px !important;
   }
 }
