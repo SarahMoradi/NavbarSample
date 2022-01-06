@@ -31,10 +31,17 @@ document
     event.stopPropagation();
   });
 document
+  .getElementById("wallet-dropdown-menu-mobile")
+  .addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+document
   .getElementById("account-dropdown-menu")
   .addEventListener("click", function (event) {
     event.stopPropagation();
   });
-
-
-
+document
+  .getElementById("account-dropdown-menu-mobile")
+  .addEventListener("click", function (event) {
+    event.stopPropagation();
+  });

@@ -6,6 +6,7 @@
 <head>
 
   <meta charset="UTF-8" />
+  <link href="dropdown-mobile-scale.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -373,23 +374,182 @@
     </div>
     <div class="order-3">
       <div class="d-flex humberger-icons-default mx-2">
+
+        <!-- Wallet Icon -->
         <a class="text-decoration-none">
           <div class="navbar-icons-default humberger-circle-color">
             <i class="material-icons humberger-icons-color">&#xe850;</i>
           </div>
         </a>
-        <a href="#" class="text-decoration-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+
+
+        <!-- Cart Icon -->
+        <div>
+          <a href="#" class="text-decoration-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
           aria-expanded="false">
           <div class=" navbar-icons-default humberger-circle-color">
             <i class="material-icons humberger-icons-color">&#xe54c;</i>
           </div>
         </a>
-        <a href="#" class="text-decoration-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+
+        <ul class="dropdown-menu" id="wallet-dropdown-menu-mobile" aria-labelledby="dropdownMenuButton1" style="width: 300px">
+          <li>
+            <div class="d-flex align-items-center justify-content-around">
+              <p class="collection-number">0 مورد</p>
+              <a class="dropdown-item cart-view" href="#">مشاهده سبد خرید</a>
+            </div>
+
+            <hr class="hr-default-style">
+      
+            <div class="d-flex align-items-center justify-content-around">
+              <div class="p-2">
+                <img src="src/icon.png" width="30px" class="rounded-circle" alt="icon" />
+              </div>
+              <div>
+                <p class="list-title">آموزش وردپرس با استفاده از ویزارد</p>
+              </div>
+              <div>
+                <i class="material-icons px-2  delete-icon">&#xe872;</i>
+              </div>
+            </div>
+
+           <div class="d-flex align-items-center justify-content-around">
+              <div class="p-2">
+                <img src="src/icon.png" width="30px" class="rounded-circle" alt="icon" />
+              </div>
+              <div>
+                <p class="list-title">آموزش وردپرس با استفاده از ویزارد</p>
+              </div>
+              <div>
+                <i class="material-icons px-2  delete-icon">&#xe872;</i>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-around">
+              <div class="p-2">
+                <img src="src/icon.png" width="30px" class="rounded-circle" alt="icon" />
+              </div>
+              <div>
+                <p class="list-title">آموزش وردپرس با استفاده از ویزارد</p>
+              </div>
+              <div>
+                <i class="material-icons px-2  delete-icon">&#xe872;</i>
+              </div>
+            </div>
+
+             <hr class="hr-default-style">
+
+            <div class="d-flex align-items-center justify-content-around">
+               <p class="collection-number">مجموع : </p>
+              <a class="dropdown-item font-weight-bold" href="#"">190/000
+                <span>تومان
+                </span>
+              </a>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="button" class="btn btn-primary my-3" style="width: 90%;">تکمیل فرایند خرید</button>
+            </div>
+          </li>
+        </ul>
+
+        </div>
+
+
+        <!-- Account Icon -->
+        <div>
+          <a href="#" class="text-decoration-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
           aria-expanded="false">
           <div class=" navbar-icons-default humberger-circle-color">
             <i class="material-icons humberger-icons-color">&#xe7fd;</i>
           </div>
         </a>
+
+        <ul class="dropdown-menu" id="account-dropdown-menu-mobile" aria-labelledby="dropdownMenuButton1" style="width: 300px">
+          <li class="d-flex p-3">
+            <div>
+              <img src="src/icon.png" class="pt-1 mr-2" width="50px" alt="profile" style="border-radius: 50%;" />
+            </div>
+            <div class="mx-4">
+              <div class="mx-5 mt-1">
+                <p >نام کاربر</p>
+              </div>
+              <div>
+                <a href="#" class="text-decoration-none">
+                  <p class="d-flex align-items-center">
+                    <span>مشاهده پنل کاربری</span>
+                    <i class="material-icons px-2">&#xe317;</i>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="d-flex ">
+            <div class="d-flex">
+              <div
+                style="width: 10px; height: 10px; border-radius: 50%; background-color: rgb(54, 131, 218);margin-top: 5px;margin-left: 10px;margin-right: 20px;">
+              </div>
+              <p style="font-weight: bold;">کیف پول</p>
+            </div>
+            <div>
+              <p style="margin-right: 90px;">0 تومان</p>
+            </div>
+          </li>
+          <li class="d-flex ">
+            <div class="d-flex">
+              <div
+                style="width: 10px; height: 10px; border-radius: 50%; background-color: rgb(121, 216, 67);margin-top: 5px;margin-left: 10px;margin-right: 20px;">
+              </div>
+              <p style="font-weight: bold;">تجربه کاربری </p>
+            </div>
+            <div>
+              <p style="color:rgb(121, 216, 67) ; margin-right: 65px;">30 تجربه</p>
+            </div>
+          </li>
+          <li class="d-flex">
+            <div class="d-flex">
+              <div
+                style="width: 10px; height: 10px; border-radius: 50%; background-color: rgb(233, 124, 35);margin-top: 5px;margin-left: 10px;margin-right: 20px;">
+              </div>
+              <p style="font-weight: bold;">باقیمانده اشتراک</p>
+            </div>
+            <div>
+              <p style="color: rgb(233, 124, 35);margin-right: 40px;">عضو ویژه نیستید</p>
+            </div>
+          </li>
+          <hr>
+          <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex" href="#">
+              <i class="material-icons " style="color: rgb(57, 58, 59)">&#xe04b;</i>
+              <p style="padding-top: 3px; margin-right: 10px;">دوره ها</p>
+            </a>
+          </li>
+          <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex" href="#">
+              <i class="material-icons " style="color: rgb(57, 58, 59)">&#xe850;</i>
+              <p style="padding-top: 3px; margin-right: 10px;">مالی و اشتراک ها</p>
+            </a>
+          </li>
+          <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex" href="#">
+              <i class="material-icons " style="color: rgb(57, 58, 59)">&#xe8fd;</i>
+              <p style="padding-top: 3px; margin-right: 10px;">پرسش ها</p>
+            </a>
+          </li>
+          <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex" href="#">
+              <i class="material-icons " style="color: rgb(57, 58, 59)">&#xe3a0;</i>
+              <p style="padding-top: 3px; margin-right: 10px;">ماموریت ها</p>
+            </a>
+          </li>
+          <li class="d-flex align-items-center">
+            <a class="dropdown-item d-flex" href="#">
+              <i class="material-icons " style="color: rgb(57, 58, 59)">&#xe879;</i>
+              <p style="padding-top: 3px; margin-right: 10px;">خروج از حساب کاربری</p>
+            </a>
+          </li>
+        </ul>
+
+        </div>
       </div>
     </div>
   </div>

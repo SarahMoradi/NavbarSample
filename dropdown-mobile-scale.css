@@ -1,0 +1,26 @@
+.collection-number {
+  font-size: 0.8rem;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.cart-view {
+  color: rgb(113, 113, 226) !important;
+  font-size: 0.8rem;
+}
+
+.hr-default-style {
+  height: 1px;
+  color: darkgrey;
+}
+.list-title {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.font-weight-bold {
+  font-weight: bold !important;
+}
+.delete-icon {
+  cursor: pointer;
+}
