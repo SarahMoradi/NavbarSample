@@ -137,6 +137,18 @@ input:focus::placeholder {
     text-align: right;
     font-size: 15px !important;
   }
+  .openbtn{
+    display: none;
+  }
+  .order-1{
+    display: none;
+  }
+  .order-2{
+    display: none;
+  }
+  .order-3{
+    display: none;
+  }
 }
 div .dropdown-btn:active i{
   display: block !important;
