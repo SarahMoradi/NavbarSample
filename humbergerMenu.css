@@ -36,9 +36,9 @@
   margin-bottom: 40px;
   font-size: 36px;
 }
-.closebtn:hover{
-   color: red !important;
-  }
+.closebtn:hover {
+  color: red !important;
+}
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
@@ -54,8 +54,6 @@
   background-color: #444;
 }
 
-
-
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
@@ -70,7 +68,8 @@
 }
 
 /* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
+.sidenav a,
+.dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
@@ -78,14 +77,15 @@
   display: block;
   border: none;
   background: none;
-  width:100%;
+  width: 100%;
   text-align: right;
   cursor: pointer;
   outline: none;
 }
 
 /* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
+.sidenav a:hover,
+.dropdown-btn:hover {
   color: #f1f1f1;
 }
 
@@ -113,4 +113,3 @@
   float: right;
   padding-right: 8px;
 }
-

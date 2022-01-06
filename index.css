@@ -93,6 +93,10 @@ input:focus::placeholder {
 .humberger-icons-color{
   color: #070000 !important;
 }
+
+.icon-cursor-pointer{
+  cursor: pointer;
+}
 @media (max-width: 767px) {
 
   .custom-navbar {

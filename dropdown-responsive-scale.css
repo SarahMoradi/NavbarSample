@@ -1,3 +1,12 @@
+.default-screen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
 .collection-number {
   font-size: 0.8rem;
   width: 100px;
@@ -23,4 +32,10 @@
 }
 .delete-icon {
   cursor: pointer;
+}
+.collection-desktop-number {
+  width: 250px;
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-right: 30px;
 }
